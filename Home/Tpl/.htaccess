@@ -1,0 +1,6 @@
+<Files *.htm>
+Order Allow,Deny 
+Deny from all
+</Files>
+
+

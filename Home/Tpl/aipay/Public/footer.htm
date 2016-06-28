@@ -1,0 +1,29 @@
+<!-- BEGIN #footer -->
+<div class="footer">
+    <div class="footerInner">
+        <div class="links">
+            <h5>友情链接</h5>            
+            <a href="<{:U('home/Index/index')}>" target="_blank">首页</a> 
+            <volist name='linklist' id='data'>
+                <b>|</b> <a href="<{$data.url}>" target="_blank"> <{$data.linkname}></a> 
+            </volist>
+        </div>
+    </div>
+    <div class="icp">Copyright 2013  
+        <a href="<{:U('home/Index/index')}>"><{$Think.config.CFG_POWERBY}></a> All rights reserved.&nbsp;
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1000186154'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1000186154%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+    </div>
+</div>
+<!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=5&amp;mini=1&amp;pos=right&amp;uid=6512786" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+var bds_config={"bdTop":125};
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END -->
+
+<!--cnzz tui-->
+<script  type="text/javascript" c=fc charset="utf-8"  src="http://tui.cnzz.net/cs.php?id=1000065803"></script>
+<!--cnzz tui-->
+

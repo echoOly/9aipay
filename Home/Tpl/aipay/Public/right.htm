@@ -1,0 +1,130 @@
+<div class="right">
+	<iframe name="alimamaifrm" class="otherLogin" frameborder="0" marginheight="0" marginwidth="0" border="0" scrolling="no" width="300" height="170" src="http://www.taobao.com/go/app/tbk_app/chongzhi_300_170.php?pid=mm_50116018_4414481_14732067&page=chongzhi_300_170.php&size_w=300&size_h=170&stru_phone=1&stru_game=1&stru_travel=1" ></iframe>
+	<div style="height:12px">&nbsp;
+	</div>
+	<div class="recommend box">
+		<h4><strong>热点推荐</strong></h4>
+		<ul>
+			<li>
+				<a href="http://s.click.taobao.com/t?e=m%3D2%26s%3DpAhpCy4hmDkcQipKwQzePOeEDrYVVa64K7Vc7tFgwiFRAdhuF14FMa5LaBwvFEicxq3IhSJN6GQVZfx3stPFvBXLW8jB08OOQ7ztMy%2BQ84XGQCv%2FqmUeUYwI4KMrSffqomfkDJRs%2BhU%3D" target="_blank">
+					<img src="http://gi2.md.alicdn.com/imgextra/i2/10768041267076417/T1qLO9FhVgXXXXXXXX_!!0-item_pic.jpg_360x360.jpg" style="width: 260px;">
+					【送手机壳+贴膜】MIUI/小米 红米手机 移动3G版/联通3G版 正品
+				</a>
+			</li>	
+		</ul>
+	</div>
+	<div class="editorChoice box tz_tab_widget" id="J_tabs">
+		<h4>
+			<ul id="tab-items" style="margin-left:20px">
+				<li><a href="#J_tabs-1"><span>热门</span></a></li>
+				<li><a href="#J_tabs-2"><span>最新</span></a></li>
+				<li><a href="#J_tabs-3"><span>评论</span></a></li>
+				<li><a href="#J_tabs-4"><span>标签</span></a></li>
+			</ul>
+		</h4>
+		<div class="tabs-inner">
+			<div id="J_tabs-1" class="tab-content J_entry_title">
+				<ul>
+					<volist name='hotreclist' id='data' key="k">
+						<li <if condition="$k lt 4">class="topRank"</if>>
+							<em><{$k}></em>
+							<a href="<{$data.arcurl}>">
+								<{$data.title|getShort=###,16,'...'}>
+							</a>
+						</li>
+					</volist>
+					<li class="more" style="text-align: center;">
+						<a href="<{:U('home/Index/index')}>">查看全部&gt;&gt;</a>
+					</li>
+				</ul>
+			</div>
+			<!-- #J_tabs-1 -->
+			<div id="J_tabs-2" class="tab-content J_entry_title">
+				<ul>
+				<volist name='lastlist' id='data' key="k">
+					<li <if condition="$k lt 4">class="topRank"</if>>
+						<em><{$k}></em>
+						<a href="<{$data.arcurl}>" title="<{$data.title}>">
+							<{$data.title|getShort=###,16,'...'}>
+						</a>
+					</li>
+				</volist>
+				</ul>
+			</div>
+			<!-- #J_tabs-2 -->
+			<div id="J_tabs-3" class="tab-content star J_entry_title">
+				<ul>
+				<volist name='commentlist' id='data'>
+					<li>
+						<img src="__IMG__/logo_03.jpg" alt="钛备份" width="50" height="50">
+			            <a href="<{$data.url}>" title="评论文章《<{$data.title}>》">
+			            	<{$data.content}>
+			            </a>
+			            <p><{$data.writer}></p>
+			        </li>
+				</volist>
+				</ul>
+			</div>
+			<!-- #J_tabs-3 -->
+			<div id="J_tabs-4" class="J_tab_tags tab-content tab-tags J_fixedBox">
+				<ul style="margin-left:0px">
+				<volist name='taglist' id='data'>
+					<li><a href='<{$data.tagurl}>' title='<{$data.num}>篇文章' style='font-size: 12px;'>
+						<{$data.tagname}>
+					</a></li>
+				</volist>
+				</ul>
+			</div>
+			<!-- #J_tabs-4 -->
+		</div>
+	</div>
+
+	<div class="recommend box article J_entry_title">
+		<h4><strong>文章分类</strong></h4>
+		<ul>
+			<volist name='categorylist' id='data'>
+				<li>
+					<a href='<{$data.url}>' title='<{$data.count}>篇文章'>
+						<{$data.colname}>
+					</a>
+					&nbsp;(<{$data.count}>)
+				</li>
+			</volist>
+		</ul>
+	</div>
+
+	<div class="recommend box article J_entry_title">
+		<h4><strong>文章归档</strong></h4>
+		<ul>
+			<volist name='datelist' id='data'>
+				<li>
+					<a href='<{$data.url}>' title='<{$data.count}>篇文章'>
+						<{$data.time}>
+					</a>
+					&nbsp;(<{$data.count}>)
+				</li>
+			</volist>
+		</ul>
+	</div>
+
+	<div class="editorChoice box J_fixedBox_t">
+		<h4>
+        	<strong>随机文章</strong>                    
+        	<a class="r" href="#">更多&gt;</a>   
+        </h4>
+		<div class="tabs-inner rand-article">
+			<div class="tab-content J_entry_title">
+				<ul>
+					<volist name='randlist' id='data' key="k">
+						<li <if condition="$k lt 4">class="topRank"</if>>
+							<em><{$k}></em>
+							<a href="<{$data.arcurl}>" title="<{$data.title}>" target="_blank">
+								<{$data.title|getShort=###,16,'...'}>
+							</a>
+						</li>
+					</volist>					
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,70 @@
+<div class="header">
+<div class="topTB">
+    <div class="topTBInner">
+        <div class="l"><{$Think.config.CFG_SUBTITLE}></div>
+        <div class="r J_move_menu">
+        	<ul>
+	        	<li><a href="<{:U('home/Index/index')}>">首页</a></li>
+	        	<volist name="collist" id="data">
+					<li><a href="<{$data.url}>"><{$data.colname}></a><{$data.submenu}></li>
+				</volist>
+				<li>
+					<a href="javascript:void(0);">探索</a>
+					<ul class='bbsNav' >
+						<div class="bbsLinks J_sub_menu">
+							<li><a href="http://www.baidu.com/" target="_blank">百度</a></li>
+							<li><a href="http://www.google.com/" target="_blank">谷歌</a></li>
+						</div>
+					</ul>
+				</li>
+				<li><a href="<{:U('home/Feedback/index')}>">给我留言</a></li>
+	            <li><a href="javascript:alert('请按Ctrl+D键添加到收藏夹');">收藏本站</a></li>
+	        </ul>
+        </div>
+    </div>
+</div>
+<div class="headerInner" style="margin-top:35px;*padding-top:35px;_margin-top:0px">
+    <div class="logo" id="logo">
+        <a class="logo_img" href="<{:U('home/Index/index')}>"></a>
+        <a class="logo_text" href="<{:U('home/Index/index')}>">所有人的成功都不是偶然的。</a>
+        <div id="J_signIn" style="width: 185px;float: right;position: absolute;top: 40px;right: -10px">
+        </div>
+    </div>
+
+    <ul class="nav">
+        <li>
+            <a href="<{:U('home/Index/index')}>">首页</a>
+        </li>
+        <volist name="collist" id="data" offset="0" length="7">
+			<li><a href="<{$data.url}>" ><{$data.colname}></a><{$data.submenu}></li>
+		</volist>
+        <li>
+            <a href="#">更多</a>
+            <div class="bbsNav">
+                <div class="bbsLinks">
+                    <a href="#" target="_blank">新的模块</a> 
+                    <a href="#" target="_blank">最新发布</a>
+                </div>
+            </div>
+        </li>
+        <div class="search" id="indexSearch">
+        	<form method="post" id="searchform" action="<{:U('home/Index/search')}>">
+				<input id="indexTxtSearch" name="searchkey" placeholder="请输入搜索内容" type="text">
+            	<button type="submit">搜索</button>
+			</form>
+        </div>
+    </ul>
+</div>
+</div>
+<script type="text/javascript" id="bd_soc_login_boot"></script>
+<script type="text/javascript">
+/*(function(){
+    var _URL_ = "http://"+"<{$_SERVER['SERVER_NAME']}>"+"<{:U('home/Index/otherAuthLogin')}>";
+    var t = new Date().getTime(),
+    script = document.getElementById("bd_soc_login_boot"),
+    redirect_uri = encodeURIComponent(_URL_),
+    domid = "J_signIn",
+    src = "http://openapi.baidu.com/social/oauth/2.0/connect/login?redirect_uri=" + redirect_uri + "&domid=" + domid + "&client_type=web&response_type=token&media_types=sinaweibo%2Cqqdenglu%2Cqqweibo%2Crenren%2Cbaidu%2Ckaixin&size=-1&button_type=4&client_id=FVnW3e8pPFTp5q8yTfWaYCSs&view=embedded&t=" + t;
+    script.src = src;
+})();*/
+</script>

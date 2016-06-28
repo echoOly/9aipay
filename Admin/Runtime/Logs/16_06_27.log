@@ -1,0 +1,82 @@
+[ 2016-06-27T10:59:08+08:00 ] 61.135.169.84 /admin.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000156s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000206s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003672s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000159s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000170s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000104s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000324s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2016-06-27T10:59:08+08:00 ] 61.135.169.84 /admin.php?s=/Public/verify/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000422s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Use of undefined constant gif - assumed 'gif' /var/www/melon/Admin/Lib/Action/PublicAction.class.php 第 93 行.
+
+[ 2016-06-27T10:59:19+08:00 ] 61.135.169.84 /admin.php?s=/Public/checkLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000434s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `t_users` [ RunTime:0.000656s ]
+SQL: SELECT * FROM `t_users` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001021s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000198s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003870s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000174s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000199s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000148s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-06-27T11:09:54+08:00 ] 61.135.169.84 /admin.php?s=/Public/checkLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000468s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `t_users` [ RunTime:0.000459s ]
+SQL: SELECT * FROM `t_users` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000269s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000167s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000208s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004027s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000152s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000170s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000127s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000351s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000410s ]
+

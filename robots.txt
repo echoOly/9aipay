@@ -1,0 +1,11 @@
+#
+# robots.txt
+#
+User-agent: * 
+Disallow:/Admin/
+Disallow:/core/
+Disallow:/Public/
+Disallow:/backupdata/
+Disallow:/bookmark/
+#Sitemap:http://www.zhangenrui.cn/sitemap.html
+#Sitemap:http://www.zhangenrui.cn/sitemap.xml

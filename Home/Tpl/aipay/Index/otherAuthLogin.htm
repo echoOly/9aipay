@@ -1,0 +1,93 @@
+<include file="Public:common_head" />
+	<title>给我留言 | <{$Think.config.CFG_WEBNAME}> </title>
+    <meta name="description" content="<{$Think.config.CFG_DESCRIPTION}>" />
+	<meta name="keywords" content="<{$Think.config.CFG_KEYWORDS}>" />
+    <link rel="canonical" href="/" />
+</head>
+<body>
+<include file="Public:head" />
+<div class="main">
+	<div class="content">
+		<include file="Public:right" />
+
+		<div class="left box">
+			<div class="art-rpybox">
+				<h3 class="psth">第三方登陆</h3>
+	    		<div class="art-form" style="margin-top:20px">
+					<form action="__URL__/saveAuthlogin" method="post" name="myform">
+						<p>
+							<label>昵　　称：</label>
+							<input type="text" name="writer" id="writer"/>
+						</p>
+						<p>
+							<label>邮　　箱：</label>
+							<input type="text" name="email" id="email"/>
+						</p>
+						<p>
+							<label class="s" style="width:400px">欢迎登陆~~~</label>	
+						</p>						
+						<button class="ds-post-button" type="submit">确定</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="some-msg" style="display:"></div>
+<script src="__JS__/baidu.frontia.js"></script>
+<script language="JavaScript">
+
+(function (frontia) {
+
+    var msg = document.getElementById('some-msg');
+
+    // API key 从应用信息页面获取
+    var AK = 'FVnW3e8pPFTp5q8yTfWaYCSs';
+    var redirect_url = "http://"+"<{$_SERVER['SERVER_NAME']}>"+"<{:U('home/Index/otherAuthLogin')}>";
+    // 初始化 frontia
+    frontia.init(AK);
+
+    // 设置登录成功后的回调
+    frontia.social.setLoginCallback({
+      success: function (user) {
+        var url = "https://openapi.baidu.com/social/api/2.0/friends";
+        // var url = "https://openapi.baidu.com/social/api/2.0/user/info?access_token="+user.getAccessToken();
+        $.get(url,{access_token:user.getAccessToken(),type:'followers',page:1,count:15},function(data){
+          console.log(data);
+        },'json');
+        // console.log(user);
+
+        // 如果用户已经登录，则显示用户的登录信息
+        msg.innerHTML = 'name = ' + user.getName() + '<br>' +
+            'token = ' + user.getAccessToken() + '<br>' +
+            'social_id = ' + user.getId() + '<br>' +
+            'expires_in = ' + user.getExpiresIn();
+            $('#writer').val(user.getName());
+
+      },
+      error: function (error) {
+        console.log('error');
+        console.log(error)
+      }
+    });
+
+    // var user;
+    // user = frontia.getCurrentAccount();
+    // console.log(user);
+    // 判断用户是否登录
+    // if (user && user.getType() === 'user') {
+
+    //   // 如果用户已经登录，则显示用户的登录信息
+    //   msg.innerHTML = 'name = ' + user.getName() + '<br>' +
+    //       'token = ' + user.getAccessToken() + '<br>' +
+    //       'social_id = ' + user.getId() + '<br>' +
+    //       'mediaType = ' + user.getMediaType() + '<br>' +
+    //       'expires_in = ' + user.getExpiresIn();
+    //     $('#writer').val(user.getName());
+    // }
+
+}(baidu.frontia));
+</script>
+<include file="Public:footer" />
+</body>
+</html>

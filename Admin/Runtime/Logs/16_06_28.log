@@ -1,0 +1,1678 @@
+[ 2016-06-28T08:27:33+08:00 ] 42.156.251.187 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined index: authId /var/www/melon/core/Extend/Library/ORG/Util/RBAC.class.php 第 173 行.
+SQL: select node.id,node.name from t_role as role,t_role_user as user,t_access as access ,t_node as node where user.user_id='' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000279s ]
+NOTIC: [8] Undefined index: authId /var/www/melon/Admin/Lib/Action/CommonAction.class.php 第 16 行.
+
+[ 2016-06-28T11:17:17+08:00 ] 61.135.169.84 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined index: authId /var/www/melon/core/Extend/Library/ORG/Util/RBAC.class.php 第 173 行.
+SQL: select node.id,node.name from t_role as role,t_role_user as user,t_access as access ,t_node as node where user.user_id='' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000288s ]
+NOTIC: [8] Undefined index: authId /var/www/melon/Admin/Lib/Action/CommonAction.class.php 第 16 行.
+
+[ 2016-06-28T11:17:17+08:00 ] 61.135.169.84 /admin.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000416s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000150s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000195s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003557s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000167s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000165s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000102s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000345s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2016-06-28T11:17:17+08:00 ] 61.135.169.84 /admin.php?s=/Public/verify/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Use of undefined constant gif - assumed 'gif' /var/www/melon/Admin/Lib/Action/PublicAction.class.php 第 93 行.
+
+[ 2016-06-28T11:17:30+08:00 ] 61.135.169.84 /admin.php?s=/Public/checkLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000386s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `t_users` [ RunTime:0.000519s ]
+SQL: SELECT * FROM `t_users` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000228s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000179s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000218s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003755s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000158s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000205s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000795s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000285s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-06-28T11:23:13+08:00 ] 61.135.169.84 /admin.php?s=/Public/verify/random/0.690853847073299
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000504s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Use of undefined constant gif - assumed 'gif' /var/www/melon/Admin/Lib/Action/PublicAction.class.php 第 93 行.
+
+[ 2016-06-28T11:23:18+08:00 ] 61.135.169.84 /admin.php?s=/Public/checkLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000380s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `t_users` [ RunTime:0.000463s ]
+SQL: SELECT * FROM `t_users` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: UPDATE `t_users` SET `logintime`=1467084198,`loginip`='61.135.169.84' WHERE ( `uid` = 1 ) [ RunTime:0.000142s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000167s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000205s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003423s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000170s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000162s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000097s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000294s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2016-06-28T11:23:19+08:00 ] 61.135.169.84 /admin.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000396s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000149s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000194s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004102s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000187s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000202s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000103s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000301s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-06-28T11:23:20+08:00 ] 61.135.169.84 /admin.php?s=/Index/main
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000433s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.000543s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` LIMIT 1   [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `t_comment` [ RunTime:0.000369s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_comment` WHERE ( `pid` = 0 ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `t_feedback` [ RunTime:0.000332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_feedback` LIMIT 1   [ RunTime:0.000131s ]
+SQL: SELECT * FROM `t_article` ORDER BY createtime desc LIMIT 5   [ RunTime:0.000334s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000212s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006325s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000198s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000162s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000112s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000273s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-06-28T11:23:20+08:00 ] 61.135.169.84 /admin.php?s=/Index/menu
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003479s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000150s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000197s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005480s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000213s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000167s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000102s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000316s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-06-28T11:23:26+08:00 ] 61.135.169.84 /admin.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000430s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000175s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004190s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000242s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000175s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000113s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000332s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-06-28T11:23:26+08:00 ] 61.135.169.84 /admin.php?s=/Index/main
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002690s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002756s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.000596s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` LIMIT 1   [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `t_comment` [ RunTime:0.000315s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_comment` WHERE ( `pid` = 0 ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `t_feedback` [ RunTime:0.000322s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_feedback` LIMIT 1   [ RunTime:0.000135s ]
+SQL: SELECT * FROM `t_article` ORDER BY createtime desc LIMIT 5   [ RunTime:0.000396s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000176s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000226s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006315s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000211s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000185s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000111s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000316s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-06-28T11:23:26+08:00 ] 61.135.169.84 /admin.php?s=/Index/menu
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001521s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000187s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000235s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005458s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000184s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000353s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000116s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000983s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000292s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-06-28T11:23:43+08:00 ] 61.135.169.84 /admin.php?s=/Article/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000368s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `t_model` [ RunTime:0.000398s ]
+SQL: SELECT * FROM `t_model` WHERE ( `maction` = 'Article' ) LIMIT 1   [ RunTime:0.000218s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_columns` [ RunTime:0.000320s ]
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 0 )  [ RunTime:0.000205s ]
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 1 )  [ RunTime:0.000126s ]
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 4 )  [ RunTime:0.000130s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 56 行.
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 2 )  [ RunTime:0.000119s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 56 行.
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 3 )  [ RunTime:0.000147s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 56 行.
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 5 )  [ RunTime:0.000138s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 56 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000160s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000218s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004593s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000229s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000163s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000097s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000298s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2016-06-28T11:23:53+08:00 ] 61.135.169.84 /admin.php?s=/Tags/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000435s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `t_tags` [ RunTime:0.000396s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_tags` LIMIT 1   [ RunTime:0.000155s ]
+SQL: SELECT * FROM `t_tags` ORDER BY addtime desc LIMIT 0,12   [ RunTime:0.000129s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_columns` [ RunTime:0.000332s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000143s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000093s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000092s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000092s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000090s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000089s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000090s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000159s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000209s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004733s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000186s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000178s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000319s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-06-28T11:23:54+08:00 ] 61.135.169.84 /admin.php?s=/Tags/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000384s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `t_tags` [ RunTime:0.000431s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_tags` LIMIT 1   [ RunTime:0.000171s ]
+SQL: SELECT * FROM `t_tags` ORDER BY addtime desc LIMIT 0,12   [ RunTime:0.000142s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_columns` [ RunTime:0.000355s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000138s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000134s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000105s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000107s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000170s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000213s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004818s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000196s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000168s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000100s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000278s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-06-28T11:26:09+08:00 ] 61.135.169.84 /admin.php?s=/Users/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `t_users` [ RunTime:0.000463s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_users` LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT `uid`,`username`,`logintime`,`loginip`,`createtime`,t_users.status,`isadmin`,t_role_user.role_id,t_role_user.user_id,t_role.name FROM `t_users` LEFT JOIN t_role_user on t_users.uid=t_role_user.user_id LEFT JOIN t_role on t_role.id=t_role_user.role_id ORDER BY createtime desc LIMIT 0,12   [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.000383s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000220s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000197s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000239s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006464s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000158s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000166s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000105s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000286s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2016-06-28T11:26:14+08:00 ] 61.135.169.84 /admin.php?s=/Users/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000419s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `t_role` [ RunTime:0.000450s ]
+SQL: SELECT `id`,`name`,`pid` FROM `t_role` WHERE ( `pid` = 0 ) AND ( `status` = 1 )  [ RunTime:0.000185s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/RoleModel.class.php 第 22 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000214s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004279s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000169s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000210s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000886s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-06-28T11:26:18+08:00 ] 61.135.169.84 /admin.php?s=/Role/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000376s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `t_role` [ RunTime:0.000385s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_role` LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT * FROM `t_role` ORDER BY id desc LIMIT 0,12   [ RunTime:0.000089s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Action/RoleAction.class.php 第 15 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000160s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000197s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004727s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000152s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000155s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000095s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000302s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-06-28T11:26:23+08:00 ] 61.135.169.84 /admin.php?s=/Role/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000389s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000162s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000206s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003607s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000172s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000162s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000118s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2016-06-28T11:26:31+08:00 ] 61.135.169.84 /admin.php?s=/Role/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000409s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `t_role` [ RunTime:0.000449s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_role` LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT * FROM `t_role` ORDER BY id desc LIMIT 0,12   [ RunTime:0.000137s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Action/RoleAction.class.php 第 15 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000165s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000204s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004792s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000162s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000159s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000097s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000296s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-06-28T11:26:32+08:00 ] 61.135.169.84 /admin.php?s=/Node/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000433s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.000463s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_node` LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT * FROM `t_node` ORDER BY level asc,sort ASC LIMIT 0,12   [ RunTime:0.000216s ]
+SQL: SELECT * FROM `t_node` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000133s ]
+SQL: SELECT * FROM `t_node` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000118s ]
+SQL: SELECT * FROM `t_node` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SELECT * FROM `t_node` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: SELECT * FROM `t_node` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000105s ]
+SQL: SELECT * FROM `t_node` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SELECT * FROM `t_node` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000105s ]
+SQL: SELECT * FROM `t_node` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000105s ]
+SQL: SELECT * FROM `t_node` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SELECT * FROM `t_node` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT * FROM `t_node` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000103s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000165s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000206s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: arcid /var/www/melon/Admin/Runtime/Cache/45692c53ede76cb3786d45f4f6c0ff82.php 第 43 行.
+NOTIC: [8] Undefined index: arcid /var/www/melon/Admin/Runtime/Cache/45692c53ede76cb3786d45f4f6c0ff82.php 第 43 行.
+NOTIC: [8] Undefined index: arcid /var/www/melon/Admin/Runtime/Cache/45692c53ede76cb3786d45f4f6c0ff82.php 第 43 行.
+NOTIC: [8] Undefined index: arcid /var/www/melon/Admin/Runtime/Cache/45692c53ede76cb3786d45f4f6c0ff82.php 第 43 行.
+NOTIC: [8] Undefined index: arcid /var/www/melon/Admin/Runtime/Cache/45692c53ede76cb3786d45f4f6c0ff82.php 第 43 行.
+NOTIC: [8] Undefined index: arcid /var/www/melon/Admin/Runtime/Cache/45692c53ede76cb3786d45f4f6c0ff82.php 第 43 行.
+NOTIC: [8] Undefined index: arcid /var/www/melon/Admin/Runtime/Cache/45692c53ede76cb3786d45f4f6c0ff82.php 第 43 行.
+NOTIC: [8] Undefined index: arcid /var/www/melon/Admin/Runtime/Cache/45692c53ede76cb3786d45f4f6c0ff82.php 第 43 行.
+NOTIC: [8] Undefined index: arcid /var/www/melon/Admin/Runtime/Cache/45692c53ede76cb3786d45f4f6c0ff82.php 第 43 行.
+NOTIC: [8] Undefined index: arcid /var/www/melon/Admin/Runtime/Cache/45692c53ede76cb3786d45f4f6c0ff82.php 第 43 行.
+NOTIC: [8] Undefined index: arcid /var/www/melon/Admin/Runtime/Cache/45692c53ede76cb3786d45f4f6c0ff82.php 第 43 行.
+NOTIC: [8] Undefined index: arcid /var/www/melon/Admin/Runtime/Cache/45692c53ede76cb3786d45f4f6c0ff82.php 第 43 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005353s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000201s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000194s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000100s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000797s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000280s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-06-28T11:26:34+08:00 ] 61.135.169.84 /admin.php?s=/Users/pwd
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000413s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000172s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003545s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000163s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000157s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000097s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000336s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2016-06-28T11:26:35+08:00 ] 61.135.169.84 /admin.php?s=/Public/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000412s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Use of undefined constant gif - assumed 'gif' /var/www/melon/Admin/Lib/Action/PublicAction.class.php 第 93 行.
+
+[ 2016-06-28T11:26:36+08:00 ] 61.135.169.84 /admin.php?s=/Users/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000415s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `t_users` [ RunTime:0.000539s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_users` LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT `uid`,`username`,`logintime`,`loginip`,`createtime`,t_users.status,`isadmin`,t_role_user.role_id,t_role_user.user_id,t_role.name FROM `t_users` LEFT JOIN t_role_user on t_users.uid=t_role_user.user_id LEFT JOIN t_role on t_role.id=t_role_user.role_id ORDER BY createtime desc LIMIT 0,12   [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.000390s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000265s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000190s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006535s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000162s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000190s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000111s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000288s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-06-28T11:28:44+08:00 ] 61.135.169.84 /admin.php?s=/Tags/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000392s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `t_tags` [ RunTime:0.000436s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_tags` LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT * FROM `t_tags` ORDER BY addtime desc LIMIT 0,12   [ RunTime:0.000136s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_columns` [ RunTime:0.000370s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000141s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000118s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000117s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000123s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000099s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000192s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004832s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000231s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000185s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000102s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000306s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-06-28T11:28:46+08:00 ] 61.135.169.84 /admin.php?s=/Columns/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000484s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_columns` [ RunTime:0.000494s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 0 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000237s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000112s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.000389s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `t_model` [ RunTime:0.000298s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000166s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 2 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000132s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000112s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 3 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000123s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000118s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 5 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000135s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 1 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 4 ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 4 ) LIMIT 1   [ RunTime:0.000126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 4 ) LIMIT 1   [ RunTime:0.000110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 4 ) LIMIT 1   [ RunTime:0.000105s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000108s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 4 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000119s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000167s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000208s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003525s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000188s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000170s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000105s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000314s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-06-28T11:28:46+08:00 ] 61.135.169.84 /admin.php?s=/Article/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000391s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.000552s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `t_article` ORDER BY ord ASC,arcid DESC LIMIT 0,12   [ RunTime:0.000357s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_columns` [ RunTime:0.000378s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `t_comment` [ RunTime:0.000370s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_comment` WHERE ( `arcid` = 6 ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000145s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_comment` WHERE ( `arcid` = 5 ) LIMIT 1   [ RunTime:0.000139s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_comment` WHERE ( `arcid` = 4 ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_comment` WHERE ( `arcid` = 3 ) LIMIT 1   [ RunTime:0.000108s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_comment` WHERE ( `arcid` = 2 ) LIMIT 1   [ RunTime:0.000151s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_comment` WHERE ( `arcid` = 1 ) LIMIT 1   [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `t_model` [ RunTime:0.000366s ]
+SQL: SELECT * FROM `t_model` WHERE ( `maction` = 'Article' ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 0 )  [ RunTime:0.000134s ]
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 1 )  [ RunTime:0.000124s ]
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 4 )  [ RunTime:0.000120s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 56 行.
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 2 )  [ RunTime:0.000130s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 56 行.
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 3 )  [ RunTime:0.000187s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 56 行.
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 5 )  [ RunTime:0.000134s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 56 行.
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 0 )  [ RunTime:0.000137s ]
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 1 )  [ RunTime:0.000138s ]
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 4 )  [ RunTime:0.000119s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 56 行.
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 2 )  [ RunTime:0.000119s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 56 行.
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 3 )  [ RunTime:0.000121s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 56 行.
+SQL: SELECT `colid`,`mid`,`colname`,`pid` FROM `t_columns` WHERE ( `mid` = 1 ) AND ( `pid` = 5 )  [ RunTime:0.000122s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 56 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000170s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006212s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000239s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000170s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000103s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000830s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000301s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-06-28T11:28:51+08:00 ] 61.135.169.84 /admin.php?s=/Columns/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000372s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_columns` [ RunTime:0.000433s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 0 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000267s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000099s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.000373s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `t_model` [ RunTime:0.000267s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000157s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 2 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000116s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.000116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.000099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 3 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000111s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 5 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000130s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000117s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 1 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 4 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 4 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 4 ) LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 4 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 4 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000111s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000178s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003226s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000176s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000157s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000093s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000276s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-06-28T11:28:53+08:00 ] 61.135.169.84 /admin.php?s=/Tags/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000431s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `t_tags` [ RunTime:0.000413s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_tags` LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT * FROM `t_tags` ORDER BY addtime desc LIMIT 0,12   [ RunTime:0.000127s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_columns` [ RunTime:0.000347s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000093s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000092s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000112s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000091s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000090s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000089s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000093s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000157s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000196s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004637s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000190s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000157s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000095s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000736s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000330s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-06-28T11:28:54+08:00 ] 61.135.169.84 /admin.php?s=/Singlepage/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000438s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `t_singlepage` [ RunTime:0.000506s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_singlepage` LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT * FROM `t_singlepage` ORDER BY sgid DESC LIMIT 0,12   [ RunTime:0.000109s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000188s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000241s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004861s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000184s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000176s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000108s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000855s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000335s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2016-06-28T11:28:57+08:00 ] 61.135.169.84 /admin.php?s=/Columns/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000374s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_columns` [ RunTime:0.000448s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 0 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000099s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.000375s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `t_model` [ RunTime:0.000263s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000155s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 2 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000118s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000105s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 3 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000110s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 5 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000121s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 1 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 4 ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 4 ) LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 4 ) LIMIT 1   [ RunTime:0.000099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 4 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000116s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 4 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000112s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000163s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000206s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003447s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000181s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000172s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000110s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000302s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2016-06-28T11:29:11+08:00 ] 61.135.169.84 /admin.php?s=/Columns/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_columns` [ RunTime:0.000486s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 0 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000111s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.000451s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `t_model` [ RunTime:0.000273s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 2 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000142s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.000116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000118s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000127s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000113s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 3 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000120s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 5 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000127s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000124s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 1 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 4 ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 4 ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 4 ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 4 ) LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000124s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 4 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000120s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000163s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000235s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003479s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000186s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000167s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000111s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-06-28T11:29:12+08:00 ] 61.135.169.84 /admin.php?s=/Tags/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `t_tags` [ RunTime:0.000436s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_tags` LIMIT 1   [ RunTime:0.000162s ]
+SQL: SELECT * FROM `t_tags` ORDER BY addtime desc LIMIT 0,12   [ RunTime:0.000158s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_columns` [ RunTime:0.000342s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000096s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000169s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000210s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004758s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000190s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000187s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000097s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000324s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-06-28T11:29:14+08:00 ] 61.135.169.84 /admin.php?s=/Columns/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000383s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_columns` [ RunTime:0.000451s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 0 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000227s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000113s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.000351s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `t_model` [ RunTime:0.000264s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000163s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 2 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000137s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.000123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 3 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000131s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000112s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 5 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000109s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 1 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 4 ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 4 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 4 ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 4 ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 4 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000113s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000172s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000218s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003424s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000213s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000168s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000097s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000792s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000377s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-06-28T11:29:14+08:00 ] 61.135.169.84 /admin.php?s=/Tags/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000392s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `t_tags` [ RunTime:0.000431s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_tags` LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT * FROM `t_tags` ORDER BY addtime desc LIMIT 0,12   [ RunTime:0.000133s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_columns` [ RunTime:0.000390s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000125s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000108s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000099s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000093s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000094s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000159s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000202s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004706s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000203s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000161s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000095s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-06-28T11:29:17+08:00 ] 61.135.169.84 /admin.php?s=/Singlepage/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000376s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `t_singlepage` [ RunTime:0.000449s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_singlepage` LIMIT 1   [ RunTime:0.000165s ]
+SQL: SELECT * FROM `t_singlepage` ORDER BY sgid DESC LIMIT 0,12   [ RunTime:0.000110s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000176s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000158s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000157s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000098s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000349s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-06-28T11:29:18+08:00 ] 61.135.169.84 /admin.php?s=/Columns/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000373s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_columns` [ RunTime:0.000436s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 0 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000226s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000137s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.000358s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `t_model` [ RunTime:0.000271s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000163s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 2 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000119s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.000105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 3 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000115s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 5 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000116s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000105s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 1 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000118s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 4 ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 4 ) LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 4 ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 4 ) LIMIT 1   [ RunTime:0.000116s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 4 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000114s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000164s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000202s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003228s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000178s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000159s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000094s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000296s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-06-28T11:29:19+08:00 ] 61.135.169.84 /admin.php?s=/Tags/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000428s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `t_tags` [ RunTime:0.000415s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_tags` LIMIT 1   [ RunTime:0.000171s ]
+SQL: SELECT * FROM `t_tags` ORDER BY addtime desc LIMIT 0,12   [ RunTime:0.000137s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_columns` [ RunTime:0.000357s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000148s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000123s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000113s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000118s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT `colname` FROM `t_columns` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000100s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000174s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004653s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000202s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000163s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000102s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000792s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000279s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-06-28T11:29:22+08:00 ] 61.135.169.84 /admin.php?s=/Columns/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000400s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_columns` [ RunTime:0.000437s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 0 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 2 ) LIMIT 1   [ RunTime:0.000101s ]
+NOTIC: [8] Use of undefined constant callback - assumed 'callback' /var/www/melon/core/Common/common.php 第 276 行.
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.000406s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 2 ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `t_model` [ RunTime:0.000257s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 2 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000119s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.000110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 3 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 3 ) LIMIT 1   [ RunTime:0.000117s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 3 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000112s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 5 ) LIMIT 1   [ RunTime:0.000116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 5 ) LIMIT 1   [ RunTime:0.000099s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 5 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000129s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 1 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 1 ) LIMIT 1   [ RunTime:0.000120s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 1 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 4 ) LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_columns` WHERE ( `pid` = 4 ) LIMIT 1   [ RunTime:0.000140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 4 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` WHERE ( `colid` = 4 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT * FROM `t_model` WHERE ( `mid` = 1 ) LIMIT 1   [ RunTime:0.000113s ]
+SQL: SELECT * FROM `t_columns` WHERE ( `pid` = 4 ) ORDER BY ord ASC,colid ASC  [ RunTime:0.000143s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/melon/Admin/Lib/Model/ColumnsModel.class.php 第 116 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000157s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000196s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003292s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000185s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000176s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000097s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-06-28T11:38:01+08:00 ] 61.135.169.84 /admin.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000368s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000168s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003644s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000169s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000187s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000098s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000749s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000303s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-06-28T11:38:01+08:00 ] 61.135.169.84 /admin.php?s=/Index/main
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000435s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.000509s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` LIMIT 1   [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `t_comment` [ RunTime:0.000295s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_comment` WHERE ( `pid` = 0 ) LIMIT 1   [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `t_feedback` [ RunTime:0.000298s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_feedback` LIMIT 1   [ RunTime:0.000151s ]
+SQL: SELECT * FROM `t_article` ORDER BY createtime desc LIMIT 5   [ RunTime:0.000400s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000175s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006804s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000190s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000162s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000097s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000414s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-06-28T11:38:01+08:00 ] 61.135.169.84 /admin.php?s=/Index/menu
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000360s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000163s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006153s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000220s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000234s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000104s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000876s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000308s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-06-28T11:38:03+08:00 ] 61.135.169.84 /admin.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000391s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000147s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000189s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003817s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000161s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000159s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000098s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000287s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-06-28T11:38:03+08:00 ] 61.135.169.84 /admin.php?s=/Index/menu
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000391s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000148s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000191s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004706s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000185s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000160s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000281s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-06-28T11:38:03+08:00 ] 61.135.169.84 /admin.php?s=/Index/main
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006397s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006451s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.000551s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` LIMIT 1   [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `t_comment` [ RunTime:0.000344s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_comment` WHERE ( `pid` = 0 ) LIMIT 1   [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `t_feedback` [ RunTime:0.000316s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_feedback` LIMIT 1   [ RunTime:0.000082s ]
+SQL: SELECT * FROM `t_article` ORDER BY createtime desc LIMIT 5   [ RunTime:0.000325s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000159s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000202s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005825s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000190s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000160s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000098s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000764s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000266s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2016-06-28T11:39:08+08:00 ] 61.135.169.84 /admin.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000409s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000149s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000193s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003842s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000164s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000192s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000107s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000294s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2016-06-28T11:39:08+08:00 ] 61.135.169.84 /admin.php?s=/Index/menu
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000404s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000150s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000193s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004376s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000177s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000191s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000116s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000274s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-06-28T11:39:08+08:00 ] 61.135.169.84 /admin.php?s=/Index/main
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003475s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.000601s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` LIMIT 1   [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `t_comment` [ RunTime:0.000429s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_comment` WHERE ( `pid` = 0 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `t_feedback` [ RunTime:0.000348s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_feedback` LIMIT 1   [ RunTime:0.000085s ]
+SQL: SELECT * FROM `t_article` ORDER BY createtime desc LIMIT 5   [ RunTime:0.000312s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000168s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006191s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000188s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000164s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000107s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000269s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-06-28T11:39:09+08:00 ] 61.135.169.84 /admin.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000432s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000146s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000189s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003809s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000180s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000221s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000103s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000318s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2016-06-28T11:39:09+08:00 ] 61.135.169.84 /admin.php?s=/Index/menu
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000175s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004560s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000207s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000204s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000102s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000334s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2016-06-28T11:39:09+08:00 ] 61.135.169.84 /admin.php?s=/Index/main
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `t_article` [ RunTime:0.000559s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_article` LIMIT 1   [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `t_comment` [ RunTime:0.000358s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_comment` WHERE ( `pid` = 0 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `t_feedback` [ RunTime:0.000290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_feedback` LIMIT 1   [ RunTime:0.000140s ]
+SQL: SELECT * FROM `t_article` ORDER BY createtime desc LIMIT 5   [ RunTime:0.000354s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000173s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006516s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000201s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000195s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000101s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000326s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000360s ]
+

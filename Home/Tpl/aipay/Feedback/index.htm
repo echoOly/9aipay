@@ -1,0 +1,68 @@
+<include file="Public:common_head" />
+	<title>给我留言 | <{$Think.config.CFG_WEBNAME}> </title>
+    <meta name="description" content="<{$Think.config.CFG_DESCRIPTION}>" />
+	<meta name="keywords" content="<{$Think.config.CFG_KEYWORDS}>" />
+    <link rel="canonical" href="/" />
+</head>
+<body>
+<include file="Public:head" />
+<div class="main">
+	<div class="content">
+		<include file="Public:right" />
+
+		<div class="left box">
+			<div class="art-rpybox">
+				<h3 class="psth">给我留言 <p style="float:right;margin-right:12px">联系QQ：1042745891</p></h3>
+	    		<div class="ds-rpybox">
+	    			<ul id="J_art_comments"></ul>
+
+		    		<div class="ds-paginator" style="display:none" id="J_article_com"></div>
+		    	</div>
+				<div class="art-form" style="margin-top:20px">
+					<form action="__URL__/saveFeedback" method="post" name="myform">
+						<p>
+							<label>昵　　称：</label>
+							<input type="text" name="writer" id="writer"/>
+						</p>
+						<p>
+							<label>邮　　箱：</label>
+							<input type="text" name="email" id="email"/>
+						</p>
+						<p>
+							<label class="s">评论内容：</label>
+							<textarea name="content" id="msg"></textarea>
+						</p>
+						<p>
+							<label>验  证  码：</label>
+							<input type="text" class="v" name="verify" id="verify"/>
+							<img id="verifyImg" src="<{:U('Public/verify')}>" onClick="show(this);" alt="点击刷新验证码" title="点击刷新验证码" class="ci"/>
+						</p>
+						<button class="ds-post-button" type="submit">发表评论</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script language="JavaScript">
+
+	function show(obj){
+	obj.src="__GROUP__/Public/verify/random/"+Math.random();
+	}
+	
+	$(document).ready(function(){
+		var i = 0;
+		loadContent('__APP__/Feedback/getFeedback',0,i);
+		$(window).scroll(function(){
+			if ($(document).height() - $(this).scrollTop() - $(this).height()<100){
+				if($('#J_article_com').text() == ''){
+					loadContent('__APP__/Feedback/getFeedback',0,++i);
+				}
+			}
+		});
+	});
+</script>
+<include file="Public:footer" />
+</body>
+</html>

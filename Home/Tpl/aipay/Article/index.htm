@@ -1,0 +1,121 @@
+<include file="Public:common_head" />  
+    <!-- Title -->
+	<title><{$article.title}> - <{$colname}><{$Think.config.CFG_WEBNAME}></title>
+    <meta name="description" content="<{$Think.config.CFG_DESCRIPTION}>" />
+    <meta name="keywords" content="<{$article.keyword}>" />
+	<link rel="canonical" href="/" />
+	<!-- END head -->
+</head>
+
+<body>
+<include file="Public:head" />
+
+<div class="main">
+	<div class="content">
+		<include file="Public:right" />
+
+		<div class="left box">
+			<div class="position">
+				<img src="__IMG__/home.png" width='18' height='16' alt='<{$Think.config.CFG_POWERBY}>' />
+				&nbsp;
+				<a href="<{:U('home/Index/index')}>">首页</a> \ 
+				<a href="<{$article.colurl}>"><{$article.colname}></a> \ 
+				<{$article.title}>
+			</div>
+			<div class="article-detail">
+				<ul class="news">  
+					<li>
+	            		<h2 class="article-title"><{$article.title}></h2>
+	            		<span>
+	            			<em class="views"><{$article.click}>次点击</em> 
+	            			<a href="javascript:void(0)" class="replies">
+	            				<{$article.commentnum}>条评论
+	            			</a>
+	            			<a href="#" title="分享到新浪微博" class="share">分享</a>
+	            		</span>
+	            		<a href="<{$article.colurl}>" title="查看 <{$article.colname}> 中的全部文章"><{$article.colname}></a>  
+	            		|  <{$article.createtime}>
+	            		<p>
+		            		<if condition="$article.pic neq ''">
+								<img width="605" src="<{$article.pic}>" alt="<{$article.title}>" />
+							</if>
+						</p>
+						<!-- <p><{$article.description}></p> -->
+	        		</li>
+				</ul>				
+			</div>
+			<div class="article-html"><{$article.content}></div>
+			<div class="article-author">
+    			<div class="aleft">
+					<img src='__IMG__/logo_03.jpg' class='avatar' height='70' width='70' alt='RUI个人博客'/>
+				</div>
+				<div class="aright">
+        			<span>标签:</span><{$article.keyurl}><br/>
+					<span>转载请注明来源:</span> 
+					<a href="<{:U('home/Index/index')}>"> <{$Think.config.CFG_WEBNAME}> </a>-<a href="<{$article.arcurl}>">《<{$article.title}>》</a><br/>
+					<span>本文链接地址:</span> 
+					<a href="<{$article.arcurl}>" title="<{$article.title}>"><{$Think.config.CFG_INDEXURL}><{$article.arcurl}></a>						
+				</div>
+    		</div>
+    		<div class="art-rpybox">
+    			<h3 class="psth">点评</h3>
+        		<div class="ds-rpybox">
+        			<ul id="J_art_comments"></ul>
+
+		    		<div class="ds-paginator" style="display:none" id="J_article_com"></div>
+		    	</div>
+				<div class="art-form" style="margin-top:20px" id="comments">
+					<form action="<{:U('Comment/saveComment')}>" method="post" name="myform">
+						<input type="hidden" value="<{$article.arcid}>" name="arcid">
+						<input type="hidden" value="<{$article.colid}>" name="colid">
+						<p>
+							<label>昵　　称：</label>
+							<input type="text" name="writer" id="writer"/>
+						</p>
+						<p>
+							<label>邮　　箱：</label>
+							<input type="text" name="email" id="email"/>
+						</p>
+						<p>
+							<label class="s">评论内容：</label>
+							<textarea name="content" id="msg"></textarea>
+						</p>
+						<p class="im">
+							<label>验  证  码：</label>
+							<input type="text" class="v" name="verify" id="verify"/>
+							<img id="verifyImg" src="<{:U('Public/verify')}>" onClick="show(this);" alt="点击刷新验证码" title="点击刷新验证码" class="ci"/>
+						</p>
+						<button class="ds-post-button" type="submit">发表评论</button>
+					</form>
+				</div>
+			</div>
+			<div class="page-navigation">
+				<div class="nav-previous"><{$article.nextarc}> </div>
+				<div class="nav-next"><{$article.prearc}></div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<script language="JavaScript">
+function show(obj){
+	obj.src = "<{:U('home/Public/verify')}>";
+}
+$(document).ready(function(){
+	var i = 0;
+	loadContent("<{:U('Comment/getComment')}>",'<{$article.arcid}>',i);
+	$(window).scroll(function(){
+		if ($(document).height() - $(this).scrollTop() - $(this).height()<100){
+			if($('#J_article_com').text() == ''){
+				loadContent("<{:U('Comment/getComment')}>",'<{$article.arcid}>',++i);
+			}
+		}
+	});		
+});	
+</script>
+
+<include file="Public:footer" />
+</body>
+</html>
